@@ -35,12 +35,20 @@ public class Tile {
 	    this.value = value;
 	}
 
-	
+	/**
+	 * A method that takes a Tile object as a parameter and displays the instance variables in a reader-friendly format.
+	 * 
+	 * @param tile
+	 */
 	public static void printTile(Tile tile) {
 		System.out.print("Letter: " + tile.letter + "\t");
 		System.out.println("Value " + tile.value);
 	}
 	
+	/**
+	 * A method that creates a Tile object with the letter Z and the value 10, 
+	 * and then uses printTile to display the state of the object.
+	 */
 	public static void testTile() {
 		Tile tile = new Tile();
 		tile.letter = 'z';

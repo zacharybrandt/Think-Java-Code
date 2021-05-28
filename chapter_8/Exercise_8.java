@@ -1,7 +1,16 @@
 package chapter_8;
 
 public class Exercise_8 {
-	
+	/**
+	 * A method that takes an array of integers and two indexes, lowIndex and highIndex, 
+	 * and finds the maximum value in the array, but only considering the elements between lowIndex and highIndex,
+	 * including both. 
+	 * 
+	 * @param a integer array
+	 * @param lowIndex integer
+	 * @param highIndex integer
+	 * @return maximum value in a
+	 */
 	public static int maxInRange(int[] a, int lowIndex, int highIndex) {
 		if (lowIndex == highIndex) {
 			return a[lowIndex];

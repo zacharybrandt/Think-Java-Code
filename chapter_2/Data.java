@@ -1,5 +1,10 @@
 package chapter_2;
-
+/**
+ * 
+ * The point of this exercise is to use string concatenation to display values with different types,
+ * and to practice developing programs gradually by adding a few statements at a time.
+ *
+ */
 public class Data {
 
 	public static void main(String[] args) {

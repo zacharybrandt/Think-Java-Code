@@ -1,4 +1,7 @@
 package chapter_3;
+/**
+ * The goal of this exercise is to program a "Guess My Number" game.
+ */
 import java.util.Random;
 import java.util.Scanner;
 

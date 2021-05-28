@@ -2,6 +2,12 @@ package chapter_7;
 
 public class Exercise_5 {
 	
+	/**
+	 * A recursive method that computes the factorial function
+	 * 
+	 * @param n integer
+	 * @return factorial of n
+	 */
 	public static int factorial(int n) {
 		if (n == 0) {
 			return 1;
@@ -11,6 +17,13 @@ public class Exercise_5 {
 		return result;
 	}
 	
+	/**
+	 * A method that estimates e^x by adding the first n terms of the series
+	 * 
+	 * @param x integer parameter
+	 * @param n integer parameter
+	 * @return first n terms of e^x series
+	 */
 	public static double myexp(double x, int n) {
 		double sum = 1;
 		double term = 1;

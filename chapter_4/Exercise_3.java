@@ -1,5 +1,9 @@
 package chapter_4;
-
+/**
+ * 
+ * The purpose of this exercise is to take code from a previous exercise and encapsulate it in a method that takes parameters.
+ *
+ */
 public class Exercise_3 {
 	
 	public static void printAmerican(String day, int date, String month, int year) {

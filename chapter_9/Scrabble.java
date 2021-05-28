@@ -1,5 +1,4 @@
 package chapter_9;
-import java.nio.file.FileSystemNotFoundException;
 import java.util.Arrays;
 
 public class Scrabble {
@@ -10,6 +9,13 @@ public class Scrabble {
 		return new String(a);
 	}
 	
+	/**
+	 * A method that takes two strings and checks whether the set of tiles can spell the word. 
+	 * 
+	 * @param tiles String
+	 * @param test String
+	 * @return boolean
+	 */
 	public static boolean canSpell(String tiles, String test) {
 		tiles = sortString(tiles);
 		test = sortString(test);

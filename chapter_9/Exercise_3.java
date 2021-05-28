@@ -1,7 +1,17 @@
 package chapter_9;
-
+/**
+ * 
+ * The purpose of this exercise is to review encapsulation and generalization.
+ *
+ */
 public class Exercise_3 {
 	
+	/**
+	 * A method that takes a string argument and returns the final value of count.
+	 * 
+	 * @param s String
+	 * @return integer
+	 */
 	public static int parenthesesCheck(String s) {
 		int count = 0;
 

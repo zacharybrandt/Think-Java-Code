@@ -1,5 +1,10 @@
 package chapter_2;
-
+/**
+ * 
+ * The point of this exercise is to use some of the arithmetic operators,
+ * and to to start thinking about compound entities that are represented with multiple values.
+ *
+ */
 public class Time {
 
 	public static void main(String[] args) {

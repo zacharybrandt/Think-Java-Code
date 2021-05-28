@@ -4,6 +4,13 @@ import java.util.Random;
 
 public class Traversal {
 	
+	/**
+	 * A method that takes a double array, and returns a new array that contains the elements squared.
+	 * 
+	 * @param a double array
+	 * @param b power to be raised by
+	 * @return a new array with the elements squared
+	 */
 	public static double[] powArray(double[] a, int b) {
 	    for (int i = 0; i < a.length; i++) {
 	        a[i] = Math.pow(a[i], b);
@@ -20,6 +27,13 @@ public class Traversal {
 	    return a;
 	}
 	
+	/**
+	 * A method that takes an int array of scores from 0 to 100, and returns a histogram of 100 counters.
+	 * 
+	 * @param scores integer array
+	 * @param counters number of counters
+	 * @return a histogram of 100 counters
+	 */
 	public static int[] histogram(int[] scores, int counters) {
 		int[] counts = new int[counters];
 		for (int score : scores) {

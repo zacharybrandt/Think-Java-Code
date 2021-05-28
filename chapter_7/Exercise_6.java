@@ -1,7 +1,13 @@
 package chapter_7;
 
 public class Exercise_6 {
-	
+	/**
+	 * A method that returns the sum of the first n terms of the series.
+	 * 
+	 * @param x integer argument
+	 * @param n integer argument
+	 * @return first n terms of the series
+	 */
 	public static double gauss(double x, int n) {
 		double sum = 1;
 		double term = 1;

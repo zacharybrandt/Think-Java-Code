@@ -22,7 +22,7 @@ public class Date {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Date birthday = new Date(2005, 3, 16);
+		Date birthday = new Date(2005, 3, 16); // creates a new Date object named birthday
 	}
 
 }

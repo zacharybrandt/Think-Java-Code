@@ -29,6 +29,11 @@ public class Recurse {
 	    return s.length();
 	}
 	
+	/**
+	 * A method that takes a string as a parameter and that displays the letters of the string, one on each line.
+	 * 
+	 * @param s String
+	 */
 	public static void printString(String s) {
 		if (length(s) == 0) {
 			System.out.println("");
@@ -38,6 +43,11 @@ public class Recurse {
 		}
 	}
 	
+	/**
+	 * A method that does the same thing as printString but that displays the string backward.
+	 * 
+	 * @param s String
+	 */
 	public static void printBackward(String s) {
 		int index = length(s) - 1;
 		while (index >= 0) {
@@ -47,6 +57,12 @@ public class Recurse {
 		}
 	}
 	
+	/**
+	 * A method that takes a string as a parameter and that returns a new string as a return value.
+	 * 
+	 * @param s
+	 * @return
+	 */
 	public static String reverseString(String s) {
 		String reverse = "";
 		int length = s.length();
@@ -56,6 +72,12 @@ public class Recurse {
 		return reverse;
 	}
 	
+	/**
+	 * A recursive method
+	 * 
+	 * @param s String
+	 * @return boolean indicating whether the word is a palindrome.
+	 */
 	public static boolean isPalindrome(String s) {
 		if (length(s) == 1) {
 			return true;

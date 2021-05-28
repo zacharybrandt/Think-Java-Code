@@ -1,7 +1,11 @@
 package chapter_5;
-
 import java.util.Scanner;
-
+/**
+ * 
+ * The purpose of this exercise is to take a problem and break it into smaller problems,
+ * and to solve the smaller problems by writing simple methods.
+ *
+ */
 public class Beer {
 	
 	public static void lyrics(int b) {
